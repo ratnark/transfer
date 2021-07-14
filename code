@@ -1,0 +1,98 @@
+CREATE TABLE if not exists operation(registration_dttm datetime, id int PRIMARY KEY, first_name varchar(50), last_name varchar(50), email varchar(50), gender varchar(50), 
+ip_address varchar(50),
+ cc bigint, country varchar(50), birthdate date, salary float, title varchar(50), comments varchar(50),dtype varchar(255) DEFAULT 'New');
+ 
+ CREATE TABLE if not exists operationd(registration_dttm datetime, id int PRIMARY KEY, first_name varchar(50), last_name varchar(50), email varchar(50), gender varchar(50), 
+ip_address varchar(50),
+ cc bigint, country varchar(50), birthdate date, salary float, title varchar(50), comments varchar(50),dtype varchar(255) DEFAULT 'New');
+
+DELIMITER //
+CREATE OR REPLACE PROCEDURE orders_proc(batch QUERY(registration_dttm datetime, id int, first_name varchar(50), last_name varchar(50),
+ email varchar(50), gender varchar(50), ip_address varchar(50),
+ cc bigint, country varchar(50), birthdate date, salary float, title varchar(50), comments varchar(50)))
+AS
+BEGIN
+  INSERT INTO operation(registration_dttm , id , first_name , last_name , email , gender , 
+ip_address ,
+ cc , country , birthdate , salary , title , comments ) SELECT 
+ registration_dttm , id , first_name , last_name , email , gender , ip_address ,
+ cc , country , birthdate , salary , title , comments FROM batch
+ ON DUPLICATE KEY UPDATE dtype = 'dupl' ;
+  INSERT INTO operationd(registration_dttm , id , first_name , last_name , email , gender , 
+ip_address ,
+ cc , country , birthdate , salary , title , comments ) SELECT 
+ registration_dttm , id , first_name , last_name , email , gender , 
+ip_address ,
+ cc , country , birthdate , salary , title , comments FROM batch  
+ where gender= 'Female'
+  ON DUPLICATE KEY UPDATE dtype = 'dupl';
+END //
+DELIMITER ;
+
+DELIMITER //
+CREATE OR replace PROCEDURE get_product_data() AS
+DECLARE
+  st1 TEXT;
+  st2 TEXT;
+  st3 TEXT;
+  st4 TEXT;
+  st5 TEXT;
+  st6 TEXT;
+BEGIN
+  st1 = CONCAT('CREATE OR REPLACE PIPELINE ', 'parquePipeline');
+  st2 = CONCAT(' AS LOAD DATA ', 'S3 ', ' ''pipelinedemomemsql''');
+  st3 = CONCAT(' CONFIG ', '''{"region": "us-east-1"}''');
+  st4 = CONCAT(' CREDENTIALS ','''{"aws_access_key_id": "AKIA6EL6NBDLF23L5MVP", "aws_secret_access_key": "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"}''');
+  st5 = CONCAT(' INTO PROCEDURE ', 'orders_proc ', 'FORMAT PARQUET');
+  st6 = CONCAT('(t.registration_dttm <- registration_dttm,
+    t.id <- id,
+    t.first_name <- first_name,
+    t.last_name <- last_name,
+    t.email <- email,
+    t.gender <- gender,
+    t.ip_address <- ip_address,
+    t.cc <- cc,
+    t.country <- country,
+    t.birthdate <- birthdate,
+    t.salary <- salary,
+    t.title <- title,
+    t.comments <- comments
+)');
+  EXECUTE IMMEDIATE CONCAT(st1, st2, st3, st4, st5, st6);
+END
+//
+DELIMITER ;
+
+CALL get_product_data();
+
+
+CREATE or REPLACE PIPELINE parquePipeline
+AS LOAD DATA S3 'pipelinedemomemsql'
+CONFIG '{"region": "us-east-1"}'
+CREDENTIALS '{"aws_access_key_id": "AKIA6EL6NBDLF23L5MVP", "aws_secret_access_key": "bM1gFPcssZBn1CUWgG1o1h6aJ1cLST9i7hsyiEAI"}'
+INTO PROCEDURE orders_proc FORMAT PARQUET
+   (t.registration_dttm <- registration_dttm,
+    t.id <- id,
+    t.first_name <- first_name,
+    t.last_name <- last_name,
+    t.email <- email,
+    t.gender <- gender,
+    t.ip_address <- ip_address,
+    t.cc <- cc,
+    t.country <- country,
+    t.birthdate <- birthdate,
+    t.salary <- salary,
+    t.title <- title,
+    t.comments <- comments
+);
+
+show pipelines
+
+drop pipeline parquePipeline
+start pipeline parquePipeline foreground;
+stop pipeline parquePipeline
+
+select count(1) from operation
+select count(1) from operationd
+truncate table operation
+truncate table operationd
