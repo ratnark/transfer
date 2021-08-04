@@ -1,0 +1,214 @@
+A G&T opportunity or engagement should have at least one of these two key characteristics, 
+a) Growth play driven thought leadership and 
+b) Drive enterprise strategies.
+
+And it should also have at least two of these 3 key behaviors 
+a) Lead and Navigate 
+b) Co-create mindset and 
+c) Transforming culture and talent
+
+Growth play driven thought leadership looks for new growth opportunities influencing customer’s core business which can be delivered through transformation.
+Driving Enterprise Strategies is to be a partner of the customers to implement their strategic priorities.
+
+In the list of behaviors 
+Lead and Navigate expects us to influence a deal cycle through maturation of customers’ business problem.
+Co-Create Mindset is all about our ability to leverage ecosystem and work closely with alliances & partners
+Transforming culture and Talent is to be the agent to drive cultural changes through learning and innovation.
+
+Here you can see how the two characteristics and three behaviors mentioned earlier are mapped to a G&T engagement of a large telecom customer. You can see how the customer clearly resonated what we wanted to accomplish as G&T. There are many such case studies available in Digital Store.
+You can also refer to a document named Demystifying G&T Working Definition in G&T Portal for better understanding of G&T definition and this example.
+
+You can also refer to a document named Demystifying G&T Working Definition in G&T Portal for better understanding of G&T definition and this example.
+
+As you all know by now that TCS is re-positioning our brand strategy into three horizons to purpose-led growth 
+a) Build Digital Core 
+b) Innovate Business Models and 
+c) Transform & Grow around purpose-led ecosystems.
+
+You can see here how our G&T objectives are fully aligned to our narrative of new brand promise. It talks about 
+purpose-centricity, 
+going beyond CIO community, 
+shaping up customers’ business, 
+delivering innovative solutions, 
+taking accountability of outcome 
+and becoming pioneer in the industry.
+
+So far, we discussed about the G&T concepts. Now to qualify an engagement as G&T we need to look at some traits of an engagement. Here you can see three key traits 
+a) Types of Transformation 
+b) Transformation levers and 
+c) Nature of business growth impact, which we can consider.
+
+You can see here typical examples of each trait to understand them better.
+
+--Framework
+What is a framework? According to the dictionary, a framework is a supporting structure around which something can be built.
+ 
+Organization-wide establishment of G&T needed a framework. In our earlier enterprise initiatives like Agile, CMMI, TBEM, ISO standards and many others, we had well-defined industry best practices packaged in form of a model, standard, methodology, and so on. But in the case of G&T we started from scratch. While we had execution experiences of G&T or G&T-like engagements, there was no underlying process or support structure to guide these engagements. So, a framework needed to be developed.  
+
+First, based on our understanding of typical characteristics of a G&T engagement we created an end-to-end-workflow of a G&T engagement right from concept building to customer acknowledgement. Then we identified an exhaustive list of activities at different value stages and the actors. Next, we logically segregated groups of activities across value themes and functional areas and we termed them as capabilities.
+ 
+
+In the slide that you see all these numbers are the outcome of multiple iterations of the process I just explained. It says - it is 1 framework targeting 1 overall objective which encompasses 4 value themes involving 6 functional areas addressing 48 capabilities having 3 layers of governance.
+
+ 
+
+This two-dimensional matrix called the capability matrix is the crux of the G&T framework. In the matrix vertically we have the 4 value themes which cover the complete value cycle of a G&T engagement. Value Discovery is all about business concept building and playing it back to customer, Value proposition is committing the business value, Value delivery is building the solution and Value articulation is collecting and amplifying the customer feedback. Horizontally we have all the 6 functional areas - Marketing, Sales/Presales, Innovation, People, Delivery and Enterprise Functions. Capabilities have been identified for each cell of the 4X6 matrix, totaling 48.   
+
+ 
+
+In this slide you can see a typical description of a capability. "System visibility of value delivered" is taken as a sample. There are standard capability attributes such as objective, input, activities, output, references, measure, influencing and influenced capabilities. All 48 capability descriptions are available in G&T portal.  It is important to note that the activities in the description are based on execution of the capabilities. Wherever the referred artifacts are not available it is the responsibility of the concerned Guild team to make those available.
+
+ 
+
+In this slide you can see levels of execution of these capabilities. The three colored concentric rings with G&T program at the center represent different levels of the organization and capabilities in the four value theme boxes have the representative color shades. The innermost ring of brown color represents Guild teams at ISU/NGM/MMU level, the middle green ring represents Guild at Business Group level and the outermost blue ring represents enterprise-level Guild team. While there are capabilities designated for a particular level, the Guild team of a level is directly or indirectly involved in all the capabilities of inner rings as for example BG level Guild team is also involved in ISU level capability execution. 
+
+ 
+
+Hope you have got a fair understanding of the G&T framework.
+
+
+Guild
+The Guild is the core structure in place to ensure the success and sustenance of the G&T Initiative.
+
+So what is a Guild?  In medieval times, a guild was defined as an association of top-of-their-trade artisans who oversaw the practice of their craft. Formed by like-minded experts they set up self-supporting groups ensuring delivery of the finest masterpieces. Focused on building expertise through built-in knowledge bases, ensuring consistent delivery with finesse and class. 
+
+The G&T Guild, fashioned like the art guilds, focusses on the G&T capabilities’ development.
+
+It is a Community of practitioners involved in ‘Growth and Transformational’ programs and inspired to build One TCS Knowhow to complement existing expertise of the individual BUs in TCS. 
+
+The Guild’s charter has two aspects: 
+Treasure Hunt: Focus on grooming more experts, identify and frame new industry problems and create solutions. Lead and navigate G&T engagements. 
+Treasure Trove: Consolidate information and expertise to help identify and deliver G&T engagements in TCS. This is a forum to share best practices, tools, solution accelerators and other proven and reusable components that can help us deliver G&T engagements better and faster.
+
+To focus on developing the capabilities identified, 6 Functional Communities have been set up.  
+
+Each functional community has:
+G&T Functional Core Team: Responsible for strategizing capability development in the respective Functional Area. 
+Unit Functional Champions: Responsible for developing, deploying and evangelizing G&T capabilities for their units and support Functional Core Team by helping identify and contribute best practices from their own units.
+Community members are nominated by the BGs and other Units. 
+
+The Units have an internal G&T Structure headed by a G&T Governance Lead who is responsible for driving G&T in the unit works closely with the Unit Champions
+
+Corporate Teams such as Finance, Legal, Delivery Excellence and so on are also included, to ensure organization-wide alignment.
+
+The G&T Guild Program Team
+Responsible for program managing the G&T Guild activities towards the realization of Guild Charter and Responsibilities
+
+Works closely with G&T Governance Leads & Functional Teams
+
+There are 3 levels of governance. 
+
+On top is the Steering Committee chaired by the TCS COO and has the G&T Governance Head, BG Heads, and corporate function heads as members. They meet every month to discuss on the adoption of the G&T Framework, track the effectiveness and consider course corrections.
+
+At the Second level, the BG Head chairs the G&T meeting with the BG's G&T Governance Leads and Functional Heads
+Within each Unit -- the Unit Head oversees the progress with the unit's G&T Governance Leads
+
+Being a guild member – contributing to building talent and assets, providing expertise across the organization to identify, win and ensure smooth delivery of value to customers.
+
+Being a contributor – sharing your success with the organization and helping set sustainable practices
+
+Being a consumer – Be aware of what G&T is, How it can benefit you in your pursuits to establish TCS as a leading G&T partner, By seeking for and adopting the established G&T practices. Amplifying the value that TCS can deliver.
+
+G&T Guild can be sustainable only if we bring in our expertise and also learn from others to ensure a consistent and enhanced experience for our customers.
+
+
+
+Let us look at the Enterprise capabilities being developed for G&T, namely the G&T Portal and the partnership of G&T Guild for the Elevate Wings competency development programs.
+
+ 
+
+The G&T portal is envisioned to be the single window/gateway to the G&T specific assets/information. The portal enables capability management, community collaboration to co-create assets, and easy dissemination of knowledge through Search. The portal follows a template-based approach for capability descriptions to ensure a consistent experience for the user.
+
+ 
+
+The portal content is available to all associates in Read mode. Many organizational repositories are integrated or catalogued in the portal such as Digital Store, One R&I, IRC, Market Research etc.
+
+ 
+
+Typical users of the Portal are:
+
+ 
+
+Explorers – who visit the portal to check for any new updates or gather information about various aspects of G&T for increasing their awareness 
+
+Consumers – who are responsible for successful execution of G&T engagements and are looking for assets and artifacts
+
+Contributors – who are part of a functional community and would like to co-create assets and provide guidance to the consumer user groups on various G&T aspects.
+
+There is a guild member registration process available in the portal which enables appropriate accesses to co-create and collaborate among the respective functional communities.
+
+ 
+
+Let us take a closer look at what are the asset categories that will be made available in the portal. 
+
+Asset catalogues of organizational repositories as well as in-house repositories of content made available through search
+Processes specific to G&T such as engagement execution process 
+Patterns and practices such as Living Agile, design thinking
+Procedures for engagement governance, customer management 
+Guidelines for IP safe solution design, contract management, and leadership interaction 
+Templates for business problem framing, PoC, PoT and so on
+Checklists for governance control, proposal review, etc.
+Training program and related assets relevant to G&T competency building
+G&T Guild partners with TD, HR, and other relevant stakeholders for G&T competency development programs such as Elevate Wings 3 program 
+As part of mentoring, the Guild is instrumental in sourcing a mentor pool from the BGs and identifying relevant business problem statements for the participants to work on during the program. With respect to the resources aspect, the Guild delivers key artifacts and also extends support to review the training program by SMEs. 
+
+ 
+
+The Guild also plays a key role in identifying appropriate utilization of the talent pool emerging from these training programs.
+
+ 
+
+As a concluding remark, we request all TCSers to leverage these G&T enablers, contribute to and leverage the One TCS KnowHow, thereby positioning TCS as the growth and transformation partner to the customer.
+
+--Value Proposition
+Here are some key points: 
+
+Create overall solution architecture.
+Evaluate options and map fit-for-purpose product/capability.
+Identify need for co-innovation with customer or innovation partners.
+Define implementation methodology and roadmap.
+Identify risks and dependencies. 
+Create viable commercial propositions.
+Synchronize with delivery on the solution, approach, execution methodology, and timelines.
+
+Both financial and legal reviews are done by authorized reviewers, such as Business Finance Manager (BFM), Contract Finance Manager (CFM) and Legal Cell of the unit
+Contract Review System (CRS) is available for managing end-to-end review workflow of contracts
+Contractual Obligations Governance System (COGS) is available for tracking contractual commitments and Enforcing Cool-off Requirements (ENCORE) for managing cooling off clauses
+Templates are available for different types of contracting, which are updated on an ongoing basis
+
+
+--Value Delivery
+Organisational Commitments and Obligations-
+The delivery team needs to have a good understanding of commitments and obligations stated in the contract such as:
+Delivery commitments and milestones for delivery 
+G&T business outcomes, IT outcomes, and Process outcomes committed
+All legal and financial obligations covered in the contract and how those relate to delivery commitments and organizational commitments.
+All Intellectual Property (IP), Information Security, and Data Privacy related clauses and obligations
+The team must assess the gaps at the project start-ups, risks the engagement carries, and the action plan to mitigate these risks.
+
+Artifacts-
+Once the team has a good understanding of delivery and organizational commitments, the next requirement is to understand artifacts that are needed to deliver the engagement and whether they are contractually committed or not. Using the artifacts will speed up delivery and provide improved quality assurance. The types of artifacts may cover:
+Tools to automate the development and delivery processes
+Frameworks, models, templates, and checklists
+Industry and technology solutions that can be a part of the solution committed to be delivered
+
+Review Team Profile-
+The next step is to review the team profile. It provides two key inputs:
+The contextual knowledge the team possesses and whether some of these experiences can be leveraged in the current engagement.
+The skills gap for the current team. This will lead to building the learning plan for the current team and inducting additional members to bridge the skills gap.
+
+Engagement Lifecycle: Methods and Tools
+Also, it is important for the team to decide on the engagement life cycle methods and select the tools for use. The recommendation is to adopt location-independent Agile principles for the engagement life cycle and use Agile and DevOps tools such as Jile™.
+
+Takeaways
+Understanding delivery, legal and financial commitments 
+Understanding IP, Information Security and Data Privacy related clauses and obligations
+Assessing gaps and risks at project start-up, and finalizing the action plan to mitigate the risks
+Focusing on artefact usage to speed up delivery with higher quality assurance
+Utilizing the contextual knowledge of the team members for the benefit of the engagement
+Developing and implementing a learning plan to address skill gaps
+Adopting location-independent Agile principles and using an Agile planning tool and DevOps tool chain.
+
+In many G&T engagements, there will be a need to onboard COIN partners and work in a collaborative workplace such as ‘PacePort’ to pilot the concept. The program management team is expected to manage the objective and operations in these scenarios.
+
+The value of regular customer communication to share delivery progress and its alignment to business value commitments, listening to the customer, and sharing contextual points-of-view.  Continuously looking out for opportunities for perpetual transformation and driving every improvement with an innovation-led approach.
